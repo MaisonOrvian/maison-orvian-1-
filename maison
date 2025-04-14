@@ -1,0 +1,42 @@
+export default function Home() {
+  return (
+    <main style={{
+      fontFamily: "serif",
+      backgroundColor: "#0d0d0d",
+      color: "white",
+      minHeight: "100vh",
+      padding: "5vh 10vw",
+      lineHeight: 1.6
+    }}>
+      <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Maison Orvian</h1>
+      <h2 style={{ fontSize: "1.5rem", fontWeight: "300", marginBottom: "2rem" }}>
+        Ultra-luxury private concierge service
+      </h2>
+      <section>
+        <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem" }}>Signature Experiences</h3>
+        <ul style={{ paddingLeft: "1rem" }}>
+          <li>🛥️ Private yacht experiences on the French Riviera</li>
+          <li>🏎️ Off-market hypercar sourcing</li>
+          <li>🌍 Bespoke world travel planning</li>
+          <li>🏰 Private castles & estates for events</li>
+          <li>🛩️ Jet chartering & ultra-exclusive access</li>
+        </ul>
+      </section>
+      <section style={{ marginTop: "3rem" }}>
+        <p>To request access, contact us on Instagram:</p>
+        <a
+          href="https://instagram.com/MaisonOrvian"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "#c9b279",
+            fontWeight: "bold",
+            textDecoration: "none"
+          }}
+        >
+          @MaisonOrvian
+        </a>
+      </section>
+    </main>
+  );
+}
